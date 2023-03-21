@@ -1,14 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Mulish:ital,wght@1,600&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-family: 'Arvo', serif;
+}
+/*HEADER*/
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #CC2500;
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+    
+}
+.navbar a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+}
 .logo{
     width: 80px;
     padding: 10px;
 }
-.img-hero{
+
+/*HERO*/
+
+.hero-img{
     width: 100%;
 }
+
+/*MAIN*/
+.main-img{
+    width: 100%;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+.main-text{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    line-height: 2em;
+}
+.main-img-box{
+    grid-column: 2/3;
+}
+/*FOOTER*/
 .img-social{
     width: 40px;
     padding: 10px;
 }
-.img-home{
-    width: 50%;
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.social img{
+    padding: 15px;
+}
+.footer-links{
+    display: flex;
+}
+.footer-links a{
+    padding: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
 }
