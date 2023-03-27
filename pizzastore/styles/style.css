@@ -62,8 +62,12 @@ header{
 .main-img-box{
     grid-column: 2/3;
 }
-.ourStory-box{
-    border-radius:3%;
+.to-menu a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    color:black;
+    padding: 10px;
 }
 /*FOOTER*/
 .img-social{
@@ -75,6 +79,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+     border: 1px solid rgb(194, 189, 189);
 }
 .social img{
     padding: 15px;
@@ -87,6 +92,25 @@ footer{
     text-align: center;
     color: black;
     text-decoration: none;
+  
+}
+
+#container{
+    text-align: center;
+    margin: 50px;
+}
+#container h1{
+    padding: 40px;
+}
+#container p{
+    padding: 10px;
+    line-height: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+#ourStory-box img{
+    max-width: 30%;
+    margin: 40px;
 }
 
 /*Email Newsletter*/
@@ -97,11 +121,11 @@ form {
     margin: 70px auto;
 }
 
-.container {
+.container-newsletter {
 padding: 20px;
 background-color: #ffe647c4;
 }
-.container p{
+.container-newsletter p{
     line-height: 3em;
     text-decoration: underline;
 }
